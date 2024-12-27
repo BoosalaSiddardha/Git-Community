@@ -1,0 +1,86 @@
+/* General Styles */
+body {
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #1e1e2e; /* Dark Background */
+    color: #f0f0f0; /* Light Text for Contrast */
+}
+
+/* Header */
+header {
+    background: #121826; /* Very Dark Shade */
+    color: #ffffff;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+header h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 3rem;
+    margin: 0;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+/* Sections */
+section {
+    padding: 2rem;
+    margin: 1rem auto;
+    max-width: 800px;
+    border-bottom: 1px solid #444; /* Slight Border for Separation */
+    background: #2a2a40; /* Slightly lighter section background */
+    border-radius: 8px;
+}
+
+/* Section Headings */
+h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #9eceff; /* Light Blue Accent for Headings */
+}
+
+/* Lists */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 0.5rem 0;
+}
+
+/* Call-to-Action (CTA) */
+#cta {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.8rem 1.5rem;
+    background: #4c8bf5; /* Bright Blue Button */
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: 'Bebas Neue', sans-serif;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background: #3b6fd8; /* Darker Shade on Hover */
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #121826; /* Matches Header */
+    color: #f0f0f0;
+    margin-top: 2rem;
+}
